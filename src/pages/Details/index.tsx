@@ -1,3 +1,13 @@
+import { useParams } from 'react-router-dom';
+
+import './styles.css';
+
 export const Details = () => {
-  return <span>Details</span>;
+  const { id } = useParams();
+
+  return (
+    <main>
+      <span>{id}</span>
+    </main>
+  );
 };
