@@ -1,0 +1,14 @@
+.NavItem {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+
+  color: #ffffff;
+
+  transition: 200ms color ease-in;
+}
+
+.NavItem:hover {
+  color: #fd4fc4;
+}
